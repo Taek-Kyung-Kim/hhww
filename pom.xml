@@ -35,7 +35,16 @@
 		<version>2.6</version>
 	</plugin>
 </plugins>
-			
+	  
+<plugin>                                          
+   <groupid>org.apache.maven.plugins</groupid>     
+   <artifactid>maven-war-plugin</artifactid>       
+  <configuration>                                 
+	  <webxml>web/WEB-INF/web.xml</webxml>          
+       <warname>eno-spring-web</warname>             
+   </configuration>                                
+</plugin>  
+	
 			
 	  
   <resources>
